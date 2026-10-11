@@ -1,4 +1,5 @@
-备注：
+文件说明如下：
+
     transformer.py 为未经封装三层单头注意力机制实现
     improved_transformer.py 为封装的三层单头注意力机制实现
     
@@ -7,3 +8,7 @@
     
     Tokenizer_baby_demo.py 为特定字符串输入的未封装的写给my only baby cjy的玩具demo
     improved_baby_demo.py 使用了封装的tokenizer和transformer,后面的LM-head、Loss和Train并未写入，属于半成品。
+
+使用环境说明：
+
+    详细见requirements.py 是此project最小实现环境。
